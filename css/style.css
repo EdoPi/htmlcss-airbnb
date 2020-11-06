@@ -3,3 +3,29 @@
   margin:0px;
   padding: 0px;
 }
+
+
+.container{
+width: 100vw;
+
+/* height: 100vh;*/
+
+position: relative;
+background-color: #eee;
+
+
+
+}
+
+
+
+.row
+{
+  background-image: url("../img/amici.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width:90vw%;
+  height: 90vh%;
+
+}
