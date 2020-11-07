@@ -11,7 +11,7 @@ background-color: #1F2D3C;
 }
 
 .container{
-  width: 600px;
+  width: 500px;
   height: 100vh;
   background-color: #fff;
   margin: 0 auto;
@@ -22,7 +22,7 @@ background-color: #1F2D3C;
 .block1{
  width:100%;
  height: 33.3%;
- background-color: #ccc;
+ background-color: #fff;
  margin:0 auto;
  position: absolute;
  z-index: 1;
@@ -32,7 +32,7 @@ background-color: #1F2D3C;
 .block2{
   width:100%;
   height: 33%;
-  background-color: #ccc;
+  background-color: #fff;
   margin:0 auto;
   position: absolute;
   top: 33.3%;
@@ -44,7 +44,7 @@ background-color: #1F2D3C;
 .block3{
   width:100%;
   height: 33%;
-  background-color: #ccc;
+  background-color: #fff;
   margin:0 auto;
   position: absolute;
   top: 66%;
@@ -52,8 +52,33 @@ background-color: #1F2D3C;
 }
 
 .immagine{
-width: 70%;
-height: 80%;
+width: 95%;
+height: 95%;
 background: #000;
-margin:30px auto 0;
+position: absolute;
+top:10px;
+left:10px;
+
+}
+
+.overlay{
+width: 95%;
+height: 95%;
+background-color: #1F2D3C;
+position:absolute;
+top:10px;
+left:10px;
+z-index: 3;
+opacity: 0.6;
+
+
+
+}
+
+
+img{
+width: 100%;
+height: 100%;
+box-shadow: 3px 3px black;
+
 }
